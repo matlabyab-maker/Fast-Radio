@@ -1,1 +1,557 @@
-
+[
+  {
+    "name": "BBC Live News(48k)",
+    "stream": "http://as-hls-ww-live.akamaized.net/pool_53367543/live/ww/bbc_sounds_news/bbc_sounds_news.isml/bbc_sounds_news-audio%3d48000.norewind.m3u8",
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRemxDuUJL4a9LiUer56WYajglJr4tFUdj4hA&s"
+  },
+  {
+    "name": "رادیو فرهنگ",
+    "stream": "https://s1.cdn3.iranseda.ir/liveedge/radio-farhang/playlist.m3u8",
+    "icon": ""
+  },
+  {
+    "name": "شبکه خبر",
+    "stream": "https://ncdn.telewebion.com/irinn/live/playlist.m3u8",
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYyxR3Rnq7rNizBn_oU-i9saE8LGbowVpShg&s"
+  },
+  {
+    "name": "پيام",
+    "stream": "http://s1.cdn1.iranseda.ir:1935/liveedge/radio-payam/playlist.m3u8",
+    "icon": ""
+  },
+  {
+    "name": "رادیو سلامت",
+    "stream": "https://s2.cdn3.iranseda.ir/liveedge/radio-salamat/playlist.m3u8",
+    "icon": ""
+  },
+  {
+    "name": "BBC NEWS(TV-England)",
+    "stream": "https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/mobile_wifi_main_sd_abr_v2.m3u8",
+    "icon": "https://upload.wikimedia.org/wikipedia/en/thumb/2/24/BBC_News_HD_Logo.svg/300px-BBC_News_HD_Logo.svg.png?20231114034940"
+  },
+  {
+    "name": "Netherland1(Fast&POWER)",
+    "stream": "http://stream.rtvkatwijk.nl:8000",
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSd8MKUYlG06SXFph2vBGNiafxYnI2hAxBWAFLbO97Ul_GZVIEgpoaUxE&s"
+  },
+  {
+    "name": "CCTV CGTN",
+    "stream": "https://english-livetx.cgtn.com/hls/yypdyyctzb_sd.m3u8",
+    "icon": "https://news.cgtn.com/news/2022-03-03/Live-CGTN-on-Live-186JX8LMSLm/img/be311c3e25724c389c12fcc465d7817a/be311c3e25724c389c12fcc465d7817a.jpeg"
+  },
+  {
+    "name": "ABC News-Australia",
+    "stream": "http://abc.streamguys1.com/live/newsradio/icecast.audio",
+    "icon": "https://live-production.wcms.abc-cdn.net.au/21b0d1767efbf09b96ab726650be17f3?impolicy=wcms_crop_resize&cropH=3001&cropW=3001&xPos=0&yPos=0&width=862&height=862"
+  },
+  {
+    "name": "Iran international-intl-1",
+    "stream": "http://n0a.radiojar.com/dfnrphnr5f0uv?rj-ttl=5&rj-tok=AAABkdwxrcoA9ROjf-IpAgaGpQ",
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwY06KmNXGqMeehQD4GgOO7dhLToaQJyAlmg&s"
+  },
+  {
+    "name": "CNN-news",
+    "stream": "http://stream1.skyviewnetworks.com:8010/CNN",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/CNN_Logo_(2014).svg/1200px-CNN_Logo_(2014).svg.png"
+  },
+  {
+    "name": "CNN International (TV)",
+    "stream": "https://tunein.cdnstream1.com/3519_96.aac",
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9S_dwsCfddC68maB-9Ns7BWAwH_WeXCDfGg&s"
+  },
+  {
+    "name": "iran international-intl-2",
+    "stream": "http://n09.radiojar.com/dfnrphnr5f0uv?rj-ttl=5&rj-tok=AAABkd2YsFUALphNN8tkOsQpAQ",
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwY06KmNXGqMeehQD4GgOO7dhLToaQJyAlmg&s"
+  },
+  {
+    "name": "راديو افغانستان اینترنشنال-Afghanistan-international(intl)-2",
+    "stream": "https://n09.radiojar.com:443/vemf3w2rv38uv",
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQUb1kZPrdDdd-H06sk4UGaWjFHOpHkT0ckw&s"
+  },
+  {
+    "name": "i24 News(English)",
+    "stream": "https://fastly.live.brightcove.com/6386790908112/eu-central-1/5377161796001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiZXJmajYzLmVncmVzcy53YzQ3bTEiLCJhY2NvdW50X2lkIjoiNTM3NzE2MTc5NjAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI1Mzc3MTYxNzk2MDAxIl0sImp0aSI6IjYzODY3OTA5MDgxMTIifQ._w5c3EwfnEecDCEpDaKuVz07uuEyUb3vXvQN3svv-oU/chunklist.m3u8",
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMjOctrN6WfKnZaJf-x75qQXI5ck0mjPo_sX1rPO3YJeiysEVoFcr0z9s&s"
+  },
+  {
+    "name": "i24New TV",
+    "stream": "https://bcovlive-a.akamaihd.net/d89ede8094c741b7924120b27764153c/eu-central-1/5377161796001/profile_0/chunklist.m3u8",
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMjOctrN6WfKnZaJf-x75qQXI5ck0mjPo_sX1rPO3YJeiysEVoFcr0z9s&s"
+  },
+  {
+    "name": "GB NEWS TV (صداى تلويزيون)",
+    "stream": "https://listen-gbnews.sharp-stream.com/gbnews.aac",
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_nQqy21YvkNr3gIHO7JcLkIgTMEjznQaY6g&s"
+  },
+  {
+    "name": "BBC World Service(England)",
+    "stream": "https://vprbbc.streamguys1.com/vprbbc24.mp3",
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRemxDuUJL4a9LiUer56WYajglJr4tFUdj4hA&s"
+  },
+  {
+    "name": "BFM(TV-Voice-France)-1",
+    "stream": "https://live-cdn-stream-euw1.bfmtv.bct.nextradiotv.com/master.m3u8",
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHgszxNYCp5yVumDivcIkR2SLml1tyZkZ2zbxrChwLyQ&s"
+  },
+  {
+    "name": "CNN International TV(صداى تلويزيون)",
+    "stream": "https://tunein.cdnstream1.com/351996.aac",
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9S_dwsCfddC68maB-9Ns7BWAwH_WeXCDfGg&s"
+  },
+  {
+    "name": "BBC PASHTO - Dari بى بى سى درى و پشتو افغانستان(POWER)",
+    "stream": "https://stream.live.vc.bbcmedia.co.uk/bbc_pashto_radio",
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDuXp7vo20nPagJyDdrIvJSSpxBeKnuEPnX86ZvDNLeXJo4so61aCXJeM&s"
+  },
+  {
+    "name": "sz-7. Realm Scans.   jp(Fast&POWER)",
+    "stream": "http://master.shoutcast.com:8000/rizz-radioonlinehd",
+    "icon": "data:image/jpeg;base64"
+  },
+  {
+    "name": "sz-6.  Reds Wave(POWER)",
+    "stream": "http://mtist.as.smartstream.ne.jp/30008/livestream/playlist.m3u8",
+    "icon": ""
+  },
+  {
+    "name": "Sz-2 AFN Tokyo-asli(POWER)",
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/AFNP_TKO.mp3",
+    "icon": ""
+  },
+  {
+    "name": "SZ-9. CNN Germentanio(POWER)",
+    "stream": "https://unlimited5-us.dps.live/cnn-ar/aac/icecast.audio",
+    "icon": ""
+  },
+  {
+    "name": "SZ-8  WREP.  JP(POWER)",
+    "stream": "https://c13.radioboss.fm:8200/autodj",
+    "icon": ""
+  },
+  {
+    "name": "sz-4.  AFN Sasebo. Asli(POWER)",
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/AFNP_SBO.mp3",
+    "icon": ""
+  },
+  {
+    "name": "sz-1(POWER)",
+    "stream": "https://vprbbc.streamguys1.com/vprbbc24-mobile.mp3",
+    "icon": ""
+  },
+  {
+    "name": "sz-3(POWER)",
+    "stream": "http://mtist.as.smartstream.ne.jp/30035/livestream/playlist.m3u8",
+    "icon": ""
+  },
+  {
+    "name": "BBC-UK(POWER)",
+    "stream": "https://stream.live.vc.bbcmedia.co.uk/bbc_world_service",
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRemxDuUJL4a9LiUer56WYajglJr4tFUdj4hA&s"
+  },
+  {
+    "name": "Radio Donya(POWER)",
+    "stream": "https://stream.zeno.fm/v5kxmagseg0uv",
+    "icon": ""
+  },
+  {
+    "name": "Radio SRF 4 News-Fast-1(Germany-آلمانى)",
+    "stream": "http://stream.srg-ssr.ch/m/drs4news/mp3_128",
+    "icon": ""
+  },
+  {
+    "name": "راديو دنيا",
+    "stream": "https://stream.zeno.fm/v5kxmagseg0uv",
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR234Urna6gxU7zBD5mcfX33MUd1AJSCyrqXvre7oyDHw6sZ-ykhqraMtE&usqp=CAE&s"
+  },
+  {
+    "name": "راديو هم صدا",
+    "stream": "http://listen.radionomy.com/rtstereo?type=.mp3",
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLZmRllZPWwZOUdOaRIMB-wHXvMYuAdJUGBZZ1ZrXjsl3GQnw5aCUFnjQ&s"
+  },
+  {
+    "name": "Friendship-japan",
+    "stream": "http://uk1.listen2myradio.com:8028/stream",
+    "icon": ""
+  },
+  {
+    "name": "Xiamen RGD Music Radio(China)",
+    "stream": "https://lhttp.qtfm.cn/live/1739/64k.mp3",
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxJD_p5r1CKFC2L8TCB762xTo78ppjeodZJ0aHzgOf_Q&s"
+  },
+  {
+    "name": "Yunnan Music Radio (China)",
+    "stream": "https://lhttp.qtfm.cn/live/1929/64k.mp3",
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxJD_p5r1CKFC2L8TCB762xTo78ppjeodZJ0aHzgOf_Q&s"
+  },
+  {
+    "name": "Wuxi News and General Radio(China)",
+    "stream": "https://lhttp.qtfm.cn/live/2777/64k.mp3",
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxJD_p5r1CKFC2L8TCB762xTo78ppjeodZJ0aHzgOf_Q&s"
+  },
+  {
+    "name": "جوان",
+    "stream": "http://s1.cdn1.iranseda.ir:1935/liveedge/radio-javan/playlist.m3u8",
+    "icon": ""
+  },
+  {
+    "name": "ورزش",
+    "stream": "http://s1.cdn1.iranseda.ir:1935/liveedge/radio-varzesh/playlist.m3u8",
+    "icon": ""
+  },
+  {
+    "name": "راديو مناسبتى",
+    "stream": "https://s2.cdn1.iranseda.ir/liveedge/radio-monasebati/playlist.m3u8",
+    "icon": ""
+  },
+  {
+    "name": "BFBS Afghanistan-افغانستان_بهترین و توانمندترین(Power Signal) آنتن",
+    "stream": "http://icy-e-01-cr.sharp-stream.com/ssvcbfbs9.mp3",
+    "icon": ""
+  },
+  {
+    "name": "Voice-America-(USA-TV)",
+    "stream": "http://voa-19.akacast.akamaistream.net/7/309/322031/v1/ibb.akacast.akamaistream.net/voa-19.m3u",
+    "icon": ""
+  },
+  {
+    "name": "NPR-(USA-Radio)",
+    "stream": "https://npr-ice.streamguys1.com/live.mp3",
+    "icon": ""
+  },
+  {
+    "name": "City News-(USA-TV)",
+    "stream": "https://rogers.leanstream.co/rogers/kit570.stream/icy?environment=tunein",
+    "icon": ""
+  },
+  {
+    "name": "Fox News (Live Now From Fox[TV]) (صداى تلويزيون)",
+    "stream": "https://fox-foxnewsnow-samsungus.amagi.tv/playlist.m3u8",
+    "icon": ""
+  },
+  {
+    "name": "راديوى آزادى افغانستان",
+    "stream": "http://rfe-channel-17.akacast.akamaistream.net/7/367/229667/v1/ibb.akacast.akamaistream.net/rfe_channel_17.mp3",
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoHDhGupb_HKluh9FlFqiawwkcc62Y-pqbhkmxOyDwwA&s"
+  },
+  {
+    "name": "راديوى آزادى افغانستان-(2)",
+    "stream": "http://rfe-channel-17.akacast.akamaistream.net/7/367/229667/v1/ibb.akacast.akamaistream.net/rfe_channel_17",
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoHDhGupb_HKluh9FlFqiawwkcc62Y-pqbhkmxOyDwwA&s"
+  },
+  {
+    "name": "راديو افغانستان اینترنشنال-Afghanistan-international(intl)",
+    "stream": "https://n0c.radiojar.com:443/vemf3w2rv38uv",
+    "icon": ""
+  },
+  {
+    "name": "صداى تلوزيون افغانستان اينترنشنال",
+    "stream": "https://hls.afintl.com/hls/stream.m3u8",
+    "icon": ""
+  },
+  {
+    "name": "راديوى افغانستان اينترنشنال",
+    "stream": "https://stream.radiojar.com/vemf3w2rv38uv",
+    "icon": ""
+  },
+  {
+    "name": "راديوى افغانستان اينترنشنال",
+    "stream": "https://stream.radiojar.com/9gayvb56ckhvv",
+    "icon": ""
+  },
+  {
+    "name": "راديو فرانسه-بخش فارسى",
+    "stream": "#NowPlaying - RFI Persian on @TuneIn Radio! http://tun.in/sfbDV",
+    "icon": ""
+  },
+  {
+    "name": "Radio-Iran-راديو ايران",
+    "stream": "http://s1.cdn1.iranseda.ir:1935/liveedge/radio-iran/playlist.m3u8",
+    "icon": ""
+  },
+  {
+    "name": "NHK-JAPAN",
+    "stream": "https://radio-stream.nhk.jp/hls/live/2023507/nhkradiruakfm/master.m3u8",
+    "icon": ""
+  },
+  {
+    "name": "Shimada-Japan",
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/AFNPMSW.mp3",
+    "icon": ""
+  },
+  {
+    "name": "راديو جهانى-Radio Jahani(Japan-فارسى)",
+    "stream": "http://shoutcast.wrn.org:8025/vor",
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf_eer8sDZ9QYNbRfkIkp7Cxldla1dbhukudaKwNm0lwE1P2i0r4h1DFg&usqp=CAE&s"
+  },
+  {
+    "name": "Shimada-Japan-2",
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/AFNPMSWAAC.aac",
+    "icon": ""
+  },
+  {
+    "name": "Kishiwada-1",
+    "stream": "https://mtist.as.smartstream.ne.jp/30035/livestream/playlist.m3u8",
+    "icon": ""
+  },
+  {
+    "name": "Total Oldies(Music)(Germany)",
+    "stream": "https://stream.laut.fm/totaloldies",
+    "icon": ""
+  },
+  {
+    "name": "Germany-شادى و خنده",
+    "stream": "https://wdr-wdr5-live.icecast.wdr.de/wdr/wdr5/live/mp3/128/stream.mp3",
+    "icon": ""
+  },
+  {
+    "name": "راديو مژده-Mojdeh(مسيحى)",
+    "stream": "https://stream.zeno.fm/v5kxmagseg0uv",
+    "icon": ""
+  },
+  {
+    "name": "راديو فارسى فرانسه",
+    "stream": "https://rfipersan96k.ice.infomaniak.ch/rfipersan-96k.mp3",
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGRmGXabv4OXrURfm1GMoU5g6bWqWCTtVgxZQhoJgiLQ&s"
+  },
+  {
+    "name": "راديو فارسى-فرانسه",
+    "stream": "http://rfienpersan64k.ice.infomaniak.ch/rfienpersan-64k.mp3",
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTY-ZOEcP6Pd1wtb_CFLuszvq5YNy-OIHh1gpY7lXe1g&s"
+  },
+  {
+    "name": "intl-HTML-WEB",
+    "stream": "http://n13.radiojar.com/iintl_c?rj-ttl=5&rj-tok=AAABkd6P6lQA9JP7eOR5_jJcRA",
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwY06KmNXGqMeehQD4GgOO7dhLToaQJyAlmg&s"
+  },
+  {
+    "name": "راديوى ايران اينترنشنال(لندن)",
+    "stream": "https://stream.radiojar.com/dfnrphnr5f0uv",
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwY06KmNXGqMeehQD4GgOO7dhLToaQJyAlmg&s"
+  },
+  {
+    "name": "راديو ايران اينترنشنال-4",
+    "stream": "http://n13.radiojar.com/dfnrphnr5f0uv?rj-ttl=5&rj-tok=AAABlRTNKWMAoJjM7umy56XSUA",
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwY06KmNXGqMeehQD4GgOO7dhLToaQJyAlmg&s"
+  },
+  {
+    "name": "USA-News-3",
+    "stream": "https://cromwell-ice.streamguys1.com/WZUSFM-fallback",
+    "icon": ""
+  },
+  {
+    "name": "BFM-",
+    "stream": "https://ncdn-live-bfm.pfd.sfr.net/shls/LIVE$BFM_GRANDSREPORTAGES/index.m3u8?start=LIVE&end=END&checkedby:iptvcat.com",
+    "icon": ""
+  },
+  {
+    "name": "persian-News-from USA",
+    "stream": "https://encompass.tv/stream-persian",
+    "icon": ""
+  },
+  {
+    "name": "BBC (Pashto_Dari)Afghanistan",
+    "stream": "http://stream.live.vc.bbcmedia.co.uk/bbc_pashto_radio",
+    "icon": ""
+  },
+  {
+    "name": "BBC-Dari",
+    "stream": "http://tun.in/se8i3",
+    "icon": ""
+  },
+  {
+    "name": "رادیو بندر عباس",
+    "stream": "http://cdn1.live.irib.ir:1935/channel-live/smil:r-bandarabas/playlist.m3u8",
+    "icon": "https://iconplanet.app/preview/png/64/khalijefars--10286.png"
+  },
+  {
+    "name": "فارس-TV(صداى تلوزيون)",
+    "stream": "https://ncdn.telewebion.com/fars/live/playlist.m3u8",
+    "icon": "https://iconplanet.app/preview/png/64/fars--10279.png"
+  },
+  {
+    "name": "خبر 2-TV(صداى تلوزيون)",
+    "stream": "https://ncdn.telewebion.com/irinn2/live/playlist.m3u8",
+    "icon": ""
+  },
+  {
+    "name": "نمايش-TV(صداى تلوزيون)",
+    "stream": "https://ncdn.telewebion.com/namayesh/live/playlist.m3u8",
+    "icon": "https://iconplanet.app/preview/png/64/mostanad--10302.png"
+  },
+  {
+    "name": "سبلان-TV(صداى تلوزيون)",
+    "stream": "https://ncdn.telewebion.com/sabalan/live/playlist.m3u8",
+    "icon": ""
+  },
+  {
+    "name": "قزوين-TV(صداى تلوزيون)",
+    "stream": "https://ncdn.telewebion.com/qazvin/live/playlist.m3u8",
+    "icon": ""
+  },
+  {
+    "name": "سلامت-TV(صداى تلوزيون)",
+    "stream": "https://ncdn.telewebion.com/salamat/live/playlist.m3u8",
+    "icon": "https://iconplanet.app/preview/png/64/salamat--10248.png"
+  },
+  {
+    "name": "ورزش-TV(صداى تلوزيون)",
+    "stream": "https://ncdn.telewebion.com/varzesh/live/playlist.m3u8",
+    "icon": ""
+  },
+  {
+    "name": "سحر افغانستان-TV(صداى تلوزيون)",
+    "stream": "https://ncdn.telewebion.com/saharafghan/live/playlist.m3u8",
+    "icon": "https://upload.wikimedia.org/wikipedia/fa/9/92/Sahar-New.png"
+  },
+  {
+    "name": "تهران-TV(صداى تلوزيون)",
+    "stream": "https://ncdn.telewebion.com/tehran/live/playlist.m3u8",
+    "icon": ""
+  },
+  {
+    "name": "سمنان-TV(صداى تلوزيون)",
+    "stream": "https://ncdn.telewebion.com/semnan/live/playlist.m3u8",
+    "icon": ""
+  },
+  {
+    "name": "مستند-TV(صداى تلوزيون)",
+    "stream": "https://ncdn.telewebion.com/mostanad/live/playlist.m3u8",
+    "icon": ""
+  },
+  {
+    "name": "كرمان-TV(صداى تلوزيون)",
+    "stream": "https://ncdn.telewebion.com/kerman/live/playlist.m3u8",
+    "icon": ""
+  },
+  {
+    "name": "جهان بين(بختيارى)-TV(صداى تلوزيون)",
+    "stream": "https://ncdn.telewebion.com/jahanbin/live/playlist.m3u8",
+    "icon": ""
+  },
+  {
+    "name": "همدان-TV(صداى تلوزيون)",
+    "stream": "https://ncdn.telewebion.com/sina/live/playlist.m3u8",
+    "icon": ""
+  },
+  {
+    "name": "آفتاب-(يزد)-TV(صداى تلوزيون)",
+    "stream": "https://ncdn.telewebion.com/aftab/live/playlist.m3u8",
+    "icon": "https://iconplanet.app/preview/png/64/yazd--10271.png"
+  },
+  {
+    "name": "باران-TV(صداى تلوزيون)",
+    "stream": "https://ncdn.telewebion.com/baran/live/playlist.m3u8",
+    "icon": ""
+  },
+  {
+    "name": "هامون-TV(صداى تلوزيون)",
+    "stream": "https://ncdn.telewebion.com/hamoon/live/playlist.m3u8",
+    "icon": ""
+  },
+  {
+    "name": "دنا-TV(صداى تلوزيون)",
+    "stream": "https://ncdn.telewebion.com/dena/live/playlist.m3u8",
+    "icon": ""
+  },
+  {
+    "name": "بوشهر-TV(صداى تلوزيون)",
+    "stream": "https://ncdn.telewebion.com/bushehr/live/playlist.m3u8",
+    "icon": ""
+  },
+  {
+    "name": "خليج فارس-TV(صداى تلوزيون)",
+    "stream": "https://ncdn.telewebion.com/khalijefars/live/playlist.m3u8",
+    "icon": ""
+  },
+  {
+    "name": "خوزستان-TV(صداى تلوزيون)",
+    "stream": "https://ncdn.telewebion.com/khoozestan/live/playlist.m3u8",
+    "icon": "https://iconplanet.app/preview/png/64/khoozestan--10280.png"
+  },
+  {
+    "name": "آموزش-TV(صداى تلوزيون)",
+    "stream": "https://ncdn.telewebion.com/amouzesh/live/playlist.m3u8",
+    "icon": "https://iconplanet.app/preview/png/64/amouzesh--10246.png"
+  },
+  {
+    "name": "BFM(TV-Voice-France)-2",
+    "stream": "https://audio.bfmtv.com/bfmradio_128.mp3",
+    "icon": ""
+  },
+  {
+    "name": "پيام",
+    "stream": "https://s2.cdn3.iranseda.ir/liveedge/radio-payam/playlist.m3u8",
+    "icon": ""
+  },
+  {
+    "name": "راديو ايران(سراسرى)",
+    "stream": "https://s1.cdn3.iranseda.ir/liveedge/radio-iran/playlist.m3u8",
+    "icon": ""
+  },
+  {
+    "name": "راديو سلامت",
+    "stream": "https://s2.cdn3.iranseda.ir/liveedge/radio-salamat/playlist.m3u8",
+    "icon": ""
+  },
+  {
+    "name": "GB-TV-Voice-صداى شبكه",
+    "stream": "https://listen-gbnews.sharp-stream.com/gbnews.mp3?ref=radiomap.eu",
+    "icon": ""
+  },
+  {
+    "name": "Fox News-1",
+    "stream": "https://crystalout.surfernetwork.com:8001/WJJF-FM_MP3",
+    "icon": ""
+  },
+  {
+    "name": "Fox News 2",
+    "stream": "https://n1ea-e2.revma.ihrhls.com:443/zc453",
+    "icon": ""
+  },
+  {
+    "name": "JP-NHK World",
+    "stream": "http://mnet.x10.mx/nhkfm.m3u8",
+    "icon": ""
+  },
+  {
+    "name": "Import",
+    "stream": "https://data.code.gouv.fr/api/v1/hosts/GitHub/repositories/radiofrance%2Fm3u8",
+    "icon": ""
+  },
+  {
+    "name": "Radio Noordzee(48)",
+    "stream": "http://stream.noordzee105.be:8000/noordzee_48",
+    "icon": ""
+  },
+  {
+    "name": "Radio Caprice(Russia)(128k)",
+    "stream": "http://79.111.119.111:8000/posthardcore",
+    "icon": ""
+  },
+  {
+    "name": "France-Radio",
+    "stream": "http://mediaserv21.live-streams.nl:8000/live",
+    "icon": ""
+  },
+  {
+    "name": "ICI",
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/CHFAFM_SRC.mp3",
+    "icon": "https://drive.google.com/file/d/1pp2n3ZWA5iMbanm4PtEk2ZAcM193Rt5G/view?usp=drivesdk"
+  },
+  {
+    "name": "BBC()",
+    "stream": "http://as-hls-ww-live.akamaized.net/pool_01505109/live/ww/bbc_radio_one/bbc_radio_one.isml/bbc_radio_one-audio%3d96000.norewind.m3u8",
+    "icon": ""
+  },
+  {
+    "name": "BBC-50",
+    "stream": "https://ukradiolive.com/bbc-world-service",
+    "icon": ""
+  },
+  {
+    "name": "RF-(Persian)",
+    "stream": "http://rfienpersan64k.ice.infomaniak.ch/rfienpersan-64k.mp3",
+    "icon": ""
+  }
+]
