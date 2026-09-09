@@ -30,16 +30,30 @@ jobs:
         with:
           gradle-version: '8.9'
 
-      - name: Build Debug APK
+      - name: Build Debug APK and save log
         run: |
           echo "=== BUILD START ==="
-          gradle assembleDebug --stacktrace --info
+          set +e
+          gradle assembleDebug --stacktrace --info > build.log 2>&1
+          BUILD_STATUS=$?
+          echo "=== BUILD EXIT CODE: $BUILD_STATUS ===" >> build.log
+          echo "=== LAST 200 LINES ==="
+          tail -n 200 build.log
+          exit $BUILD_STATUS
 
       - name: Show APK files
         if: always()
         run: |
           echo "=== APK FILES ==="
           find . -type f -name "*.apk" -print
+
+      - name: Upload Build Log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: Fast-Radio-Build-Log
+          path: build.log
+          if-no-files-found: warn
 
       - name: Upload APK
         if: success()
