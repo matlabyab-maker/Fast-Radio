@@ -1,1 +1,50 @@
+name: Build Fast Radio APK
 
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout project
+        uses: actions/checkout@v4
+
+      - name: Show project files
+        run: |
+          echo "=== PROJECT FILES ==="
+          find . -maxdepth 3 -type f | sort
+
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Build
+        run: |
+          echo "=== BUILD START ==="
+          if [ -f "./gradlew" ]; then
+            chmod +x ./gradlew
+            ./gradlew assembleDebug --stacktrace
+          else
+            echo "ERROR: gradlew was not found."
+            exit 1
+          fi
+
+      - name: Show APK files
+        if: always()
+        run: |
+          echo "=== APK FILES ==="
+          find . -type f -name "*.apk" -print
+
+      - name: Upload APK
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: Fast-Radio-APK
+          path: "**/*.apk"
