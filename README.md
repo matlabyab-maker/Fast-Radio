@@ -1,12 +1,10 @@
-# Fast Radio
+FAST RADIO - Station List Update
 
-نسخه اول برنامه Fast Radio.
+Upload these files to the exact paths in your GitHub repository:
+1) app/src/main/assets/stations.json
+2) app/src/main/java/com/fast/radio/MainActivity.java
+3) app/src/main/res/layout/activity_main.xml
+4) app/src/main/AndroidManifest.xml
 
-## امکانات نسخه اول
-- پخش رادیوی اینترنتی با وارد کردن آدرس Stream
-- دکمه پخش و توقف
-- نمایش وضعیت اتصال و پخش
-- ساخت APK با GitHub Actions
-
-## نکته
-برای پخش واقعی باید آدرس Stream رادیوی موردنظر وارد شود.
+The station list contains 111 records from the supplied stations list.
+The app keeps the equalizer, volume slider, blinking green playing lamp, station names and web icons when available.
